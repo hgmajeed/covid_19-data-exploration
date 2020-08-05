@@ -21,6 +21,7 @@ The data were obtained from three sources:
 ## Other Files Provided
 - `covid_19_clean_csv`: This file is the result of cleaning the three original files. 
 - `world_map.shp`: After cleaning the shape file obtained from geopandas documentation, I had to save it separately to merge it later with `covid_19_clean_csv` in the exploration phase.
+- `world_map.cpg`, `world_map.dbf`, and `world_map.shx` thos are supplement files that come along with the shapefile.
 - `wrangle_act.ipynb`: This is a python notebook where all the wrangling efforts were achieved.
 - `EDA.ipynb`: This is a python notebook where all exploration and analysis took place.
 - `EDA_ss.ipynb`: This is a python notebook, same as above, but was slightly modified to create the slide decks.
